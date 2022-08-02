@@ -3,12 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
-import { HeadComponent } from './head-component/head-component.component';
+
+import { HeadComponent } from './head/head.component';
+import { ThingsComponent } from './things/things.component';
+import { SensorComponent } from './sensor/sensor.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent, HelloComponent, HeadComponent],
+  declarations: [AppComponent, HeadComponent, ThingsComponent, SensorComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
