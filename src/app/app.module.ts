@@ -6,8 +6,9 @@ import { AppComponent } from './app.component';
 
 import { HeadComponent } from './head/head.component';
 import { ThingsComponent } from './things/things.component';
-import { SensorComponent } from './sensor/sensor.component';
+import { SensorsComponent } from './sensors/sensors.component';
 import { DeviceComponent } from './device/device.component';
+import { SwitchComponent } from './device/switch/switch.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -15,8 +16,9 @@ import { DeviceComponent } from './device/device.component';
     AppComponent,
     HeadComponent,
     ThingsComponent,
-    SensorComponent,
+    SensorsComponent,
     DeviceComponent,
+    SwitchComponent,
   ],
   bootstrap: [AppComponent],
 })
