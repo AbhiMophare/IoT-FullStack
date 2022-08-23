@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ThingsComponent implements OnInit {
 
+  sensors:[]=[];
   constructor() { }
 
   ngOnInit() {

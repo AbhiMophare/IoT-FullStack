@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 
 import { HeadComponent } from './head/head.component';
 import { ThingsComponent } from './things/things.component';
-import { SensorsComponent } from './sensors/sensors.component';
+import { SensorsComponent } from './things/sensors/sensors.component';
 import { DeviceComponent } from './device/device.component';
 import { SwitchComponent } from './device/switch/switch.component';
 

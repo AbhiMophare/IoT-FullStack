@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { IsensorData } from '../data/isensor-data';
+import { Component, Input, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-sensors',
@@ -7,8 +7,8 @@ import { IsensorData } from '../data/isensor-data';
   styleUrls: ['./sensors.component.css'],
 })
 export class SensorsComponent implements OnInit {
-  name: string = 'Temperature';
-  value: number = 88;
+  @Input() name: string ;
+  @Input() value: string;
   constructor() {}
 
   ngOnInit() {}
